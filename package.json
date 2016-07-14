@@ -1,0 +1,26 @@
+{
+  "name": "ATTProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "ws": "^1.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^2.13.6",
+    "http-server": "^0.9.0",
+    "rimraf": "^2.5.3",
+    "typings": "^1.3.1"
+  },
+  "scripts": {
+    "init": "typings install",
+    "http": "http-server",
+    "server": "gulp",
+    "dev": "npm install && typings install && http-server | gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

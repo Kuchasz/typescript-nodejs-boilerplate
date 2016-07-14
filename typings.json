@@ -1,0 +1,8 @@
+{
+  "name": "ATTProject",
+  "dependencies": {},
+  "globalDependencies": {
+    "node": "registry:dt/node#6.0.0+20160709114037",
+    "ws": "registry:dt/ws#0.0.0+20160405094435"
+  }
+}
